@@ -1,0 +1,16 @@
+2024-06-28 07:37:02,560 - INFO - Booking ticket for John Doe with ticket code PAVI123.
+2024-06-28 07:37:02,858 - ERROR - Error fetching ticket details: 1146 (42S02): Table 'ticket_db.valid_tickets' doesn't exist
+2024-06-28 07:37:02,858 - INFO - Ticket code PAVI123 is invalid for booking.
+2024-06-28 07:37:02,867 - ERROR - Failed to send email to pavithauma@gmail.com: [Errno 11001] getaddrinfo failed
+2024-06-28 07:37:02,867 - INFO - Booking ticket for Jane Doe with ticket code INVALID_CODE.
+2024-06-28 07:37:02,883 - ERROR - Error fetching ticket details: 1146 (42S02): Table 'ticket_db.valid_tickets' doesn't exist
+2024-06-28 07:37:02,883 - INFO - Ticket code INVALID_CODE is invalid for booking.
+2024-06-28 07:37:02,883 - ERROR - Failed to send email to pavithauma@gmail.com: [Errno 11001] getaddrinfo failed
+2024-06-28 07:41:03,806 - INFO - Booking ticket for John Doe with ticket code PAVI123.
+2024-06-28 07:41:04,165 - ERROR - Error fetching ticket details: 1146 (42S02): Table 'ticket_db.valid_tickets' doesn't exist
+2024-06-28 07:41:04,165 - INFO - Ticket code PAVI123 is invalid for booking.
+2024-06-28 07:41:08,396 - ERROR - Failed to send email to pavithauma@gmail.com: (534, b'5.7.9 Application-specific password required. For more information, go to\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d9443c01a7336-1facea87fa5sm8920275ad.131 - gsmtp')
+2024-06-28 07:41:08,396 - INFO - Booking ticket for Jane Doe with ticket code INVALID_CODE.
+2024-06-28 07:41:08,474 - ERROR - Error fetching ticket details: 1146 (42S02): Table 'ticket_db.valid_tickets' doesn't exist
+2024-06-28 07:41:08,474 - INFO - Ticket code INVALID_CODE is invalid for booking.
+2024-06-28 07:41:11,682 - ERROR - Failed to send email to pavithauma@gmail.com: (534, b'5.7.9 Application-specific password required. For more information, go to\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 41be03b00d2f7-72c69b5405dsm1363282a12.15 - gsmtp')
